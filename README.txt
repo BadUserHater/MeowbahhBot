@@ -12,7 +12,7 @@ Here are the steps to set up your own Bad User bot. Keep in mind this is the bas
 SET UP GUIDE
 1. Go to https://discord.com/developers/applications and create a discord bot application, create a bot, and copy its discord bot token if you have not already done so.
 - Make sure to enable the Message Content intent.
-2. Paste your bot token at the bottom where it says "BOTTOKEN" without removing the ""
+2. Paste your bot token at the bottom where it says "BOTTOKENHERE" without removing the ""
 3. Extract the RESOURCES.ZIP file to your root folder of the bot files.
 4. CHANGING PREFIX (Optional)
 -- Head to the top where it says: client = commands.Bot(command_prefix="++") and replace ++ with the prefix you want.
@@ -47,7 +47,7 @@ You can take your anger out of these users by making a bot based on them.
 ===============SECTION 2.1 - LIMITATION and WARRENTY========
 
 WARNING: THERE IS LITERALLY NO GUARENTEES OR WARRENTIES IF YOU DECIDE TO SELF-HOST THIS BOT. IF YOU DO, WE WILL NOT BE HELD RESPONSIBLE OR LIABLE FOR
-DAMAGES INCLUDING BUT LIMITED TO: LOSS OF PROFITS, COMMERCIAL DAMAGES, etx. IF YOU DO SELF HOST THIS BOT, WE EXPECT YOU TO HAVE ENOUGH KNOWLEDGE IN
+DAMAGES INCLUDING BUT LIMITED TO: LOSS OF PROFITS, COMMERCIAL DAMAGES, etc. IF YOU DO SELF HOST THIS BOT, WE EXPECT YOU TO HAVE ENOUGH KNOWLEDGE IN
 DISCORD.PY AND PYTHON. WE WILL NOT HELP YOU SET UP THE BOT UP EITHER! USE AT YOUR OWN RISK!
 We do recommend you using the orignal bot here: https://discord.com/oauth2/authorize?client_id=972161452133728256&permissions=0&scope=bot
 
@@ -55,11 +55,11 @@ We do recommend you using the orignal bot here: https://discord.com/oauth2/autho
 
 Orignal Bot: https://discord.com/oauth2/authorize?client_id=972161452133728256&permissions=0&scope=bot
 
-Website: https://meowbahhbot.dscdevstudios.xyz
+Website: https://idiotcreaturehater.glitch.me
 
 Support Server: https://discord.gg/nVs4rCNwyc
 
-The Meowbahh Bot YT channel: https://www.youtube.com/channel/UCUTBBbDV_C3WlL_MgD_axfA
+The Idiot Creature Hater Studios YT channel: https://www.youtube.com/channel/UCUTBBbDV_C3WlL_MgD_axfA
 
 ==============SECTION 2.3 - SUPPORT THE CREATOR===========
 
@@ -71,6 +71,9 @@ Twitter: https://twitter.com/BadUserHater
 
 Gamejolt: https://gamejolt.com/@IdiotCreatureHater
 
+Itch.io: https://idiotcreaturehater.itch.io
+
 Soundcloud: https://soundcloud.com/idiotcreaturehater
 
-Tiktok: https://www.tiktok.com/@theidiotcreaturehater
+Meowbahh Bot is made by Idiot Creature Hater Studios 2022-2023
+Idiot Creature Hater Studios 2021-2023

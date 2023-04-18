@@ -14,13 +14,18 @@ client.remove_command("help")
 async def on_ready():
     await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"my trash bin"))
     print("Bot Ready")
+    try:
+        synced = await client.tree.sync()
+        print(f"{len(synced)} Slash Commands successfully Synced")
+    except Exception as e:
+        print(e)
 
 @client.command()
 async def help(ctx):
-    embed = discord.Embed(title="MEOQBAHH BOT", description="++help - This Message\n++ping - Checks my latency\n++botinfo - Information about the bot", color=(16711839))
-    embed.add_field(name="MAIN FUN COMMANDS", value='++say - Make me say things\n++askmeow - Ask me anything\n++art - See some Bad User art made by our community\n++badusermeme - Get a Meme of a Bad User', inline=False)
-    embed.add_field(name="VOICE CHANNEL COMMANDS", value='++stop - Stop my voice channel stuff and make me disconnect from VC\n++play - Play a stupid song\n++listsongs - I list my music for ++play', inline=False)
-    embed.add_field(name="STAFF COMMANDS", value='++watchstatus - Set a watching status\n++listenstatus - Set a Listening status\n++playstatus - Set a playing status', inline=False)
+    embed = discord.Embed(title="Idiot Bot", description="**help** - This Message\n**ping** - Checks my latency\n**botinfo** - Information about the bot", color=(16711839))
+    embed.add_field(name="MAIN FUN COMMANDS", value="**say** - Make me say things\n**askmeow** - Ask me anything\n**art** - See some Bad User art made by our community\n**badusermeme** - Get a Meme of a Bad User", inline=False)
+    embed.add_field(name="VOICE CHANNEL COMMANDS", value="**stop** - Stop my voice channel stuff and make me disconnect from VC\n**play** - Play a stupid song\n**listsongs** - I list my music for ++play", inline=False)
+    embed.add_field(name="STAFF COMMANDS", value="**watchstatus** - Set a watching status\n**listenstatus** - Set a Listening status\n**playstatus** - Set a playing status", inline=False)
     await ctx.send(embed=embed)
 
 @client.command()
@@ -212,7 +217,7 @@ async def listsongs(ctx):
 @client.command()
 async def stop(ctx):
     if(ctx.author.voice is None):
-        await ctx.send("You need to be in a VC to (disconnect me from the Voice Channel)")
+        await ctx.send("You need to be in a VC to disconnect me from the Voice Channel")
         return
     server = ctx.message.guild.voice_client
     await server.disconnect()
@@ -254,4 +259,4 @@ async def playstatus(ctx, *, question):
 
 
 
-client.run("BOTTOKEN")
+client.run("BOTTOKENHERE")
